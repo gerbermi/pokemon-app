@@ -6,7 +6,7 @@ exports.POKEMONS = [
         name: "Bulbizarre",
         hp: 25,
         cp: 5,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+        picture: "./img/001.png",
         types: ["Plante", "Poison"],
         created: new Date()
     },
@@ -15,7 +15,7 @@ exports.POKEMONS = [
         name: "Salamèche",
         hp: 28,
         cp: 6,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+        picture: "./img/004.png",
         types: ["Feu"],
         created: new Date()
     },
@@ -24,7 +24,7 @@ exports.POKEMONS = [
         name: "Carapuce",
         hp: 21,
         cp: 4,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+        picture: "./img/007.png",
         types: ["Eau"],
         created: new Date()
     },
@@ -33,7 +33,7 @@ exports.POKEMONS = [
         name: "Aspicot",
         hp: 16,
         cp: 2,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
+        picture: "./img/013.png",
         types: ["Insecte", "Poison"],
         created: new Date()
     },
@@ -42,7 +42,7 @@ exports.POKEMONS = [
         name: "Roucool",
         hp: 30,
         cp: 7,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
+        picture: "./img/016.png",
         types: ["Normal", "Vol"],
         created: new Date()
     },
@@ -51,7 +51,7 @@ exports.POKEMONS = [
         name: "Rattata",
         hp: 18,
         cp: 6,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+        picture: "./img/019.png",
         types: ["Normal"],
         created: new Date()
     },
@@ -60,7 +60,7 @@ exports.POKEMONS = [
         name: "Piafabec",
         hp: 14,
         cp: 5,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
+        picture: "./img/021.png",
         types: ["Normal", "Vol"],
         created: new Date()
     },
@@ -69,7 +69,7 @@ exports.POKEMONS = [
         name: "Abo",
         hp: 16,
         cp: 4,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
+        picture: "./img/023.png",
         types: ["Poison"],
         created: new Date()
     },
@@ -78,7 +78,7 @@ exports.POKEMONS = [
         name: "Pikachu",
         hp: 21,
         cp: 7,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+        picture: "./img/025.png",
         types: ["Electrik"],
         created: new Date()
     },
@@ -87,7 +87,7 @@ exports.POKEMONS = [
         name: "Sabelette",
         hp: 19,
         cp: 3,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
+        picture: "./img/027.png",
         types: ["Normal"],
         created: new Date()
     },
@@ -96,7 +96,7 @@ exports.POKEMONS = [
         name: "Mélofée",
         hp: 25,
         cp: 5,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png",
+        picture: "./img/035.png",
         types: ["Fée"],
         created: new Date()
     },
@@ -105,7 +105,7 @@ exports.POKEMONS = [
         name: "Groupix",
         hp: 17,
         cp: 8,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "./img/037.png",
         types: ["Feu"],
         created: new Date()
     }
