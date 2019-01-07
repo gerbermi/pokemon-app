@@ -1,6 +1,8 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
-@Directive({ selector: '[pkmnBorderCard]' })
+@Directive({
+  selector: '[pkmnBorderCard]'
+})
 export class BorderCardDirective {
 
   private initialColor: string = '#f5f5f5';
@@ -22,13 +24,8 @@ export class BorderCardDirective {
     this.setBorder(this.initialColor);
   }
 
-  @HostListener('mouseover') onHover() {
-    this.setBorder(this.borderColor || this.defaultColor);
-    // window.alert("hover");
-  }
-
   private setBorder(color: string) {
-    let border = 'solid 4 px ' + color;
+    let border = 'solid 4px ' + color;
     this.el.nativeElement.style.border = border;
   }
 

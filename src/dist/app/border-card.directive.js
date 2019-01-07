@@ -25,12 +25,8 @@ var BorderCardDirective = /** @class */ (function () {
     BorderCardDirective.prototype.onMouseLeave = function () {
         this.setBorder(this.initialColor);
     };
-    BorderCardDirective.prototype.onHover = function () {
-        this.setBorder(this.borderColor || this.defaultColor);
-        // window.alert("hover");
-    };
     BorderCardDirective.prototype.setBorder = function (color) {
-        var border = 'solid 4 px ' + color;
+        var border = 'solid 4px ' + color;
         this.el.nativeElement.style.border = border;
     };
     BorderCardDirective.prototype.setHeight = function (height) {
@@ -52,14 +48,10 @@ var BorderCardDirective = /** @class */ (function () {
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], BorderCardDirective.prototype, "onMouseLeave", null);
-    __decorate([
-        core_1.HostListener('mouseover'),
-        __metadata("design:type", Function),
-        __metadata("design:paramtypes", []),
-        __metadata("design:returntype", void 0)
-    ], BorderCardDirective.prototype, "onHover", null);
     BorderCardDirective = __decorate([
-        core_1.Directive({ selector: '[pkmnBorderCard]' }),
+        core_1.Directive({
+            selector: '[pkmnBorderCard]'
+        }),
         __metadata("design:paramtypes", [core_1.ElementRef])
     ], BorderCardDirective);
     return BorderCardDirective;

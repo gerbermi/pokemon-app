@@ -7,10 +7,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-// Affiche la couleur correspondant au type du pokémon.
-// Prend en argument le type du pokémon.
-// Exemple d'utilisation:
-// {{Pokemon.type | pokemonTypeColor}}
+/*
+ * Affiche la couleur correspondant au type du pokémon.
+ * Prend en argument le type du pokémon.
+ * Exemple d'utilisation:
+ *   {{ pokemon.type | pokemonTypeColor }}
+*/
 var PokemonTypeColorPipe = /** @class */ (function () {
     function PokemonTypeColorPipe() {
     }
@@ -44,7 +46,7 @@ var PokemonTypeColorPipe = /** @class */ (function () {
             case 'Psy':
                 color = 'deep-purple darken-2';
                 break;
-            case 'Electrick':
+            case 'Electrik':
                 color = 'lime accent-1';
                 break;
             case 'Combat':
@@ -54,7 +56,7 @@ var PokemonTypeColorPipe = /** @class */ (function () {
                 color = 'grey';
                 break;
         }
-        return 'chip' + color;
+        return 'chip ' + color;
     };
     PokemonTypeColorPipe = __decorate([
         core_1.Pipe({ name: 'pokemonTypeColor' })
