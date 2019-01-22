@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var mock_pokemons_1 = require("./mock-pokemons");
+var mock_pokemons_1 = require("./pokemons/mock-pokemons");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         // 1. La propriété pokemons est un tableau d'objet de type Pokemon

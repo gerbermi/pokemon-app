@@ -10,21 +10,18 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var app_routing_module_1 = require("./app.routing.module");
+var pokemons_module_1 = require("./pokemons/pokemons-module");
 var page_not_found_component_1 = require("./page-not-found.component");
-// importez la directive
-var border_card_directive_1 = require("./border-card.directive");
-// importez pipe PokemonTypeColorPipe
-var pokemon_type_color_pipe_1 = require("./pokemon-type-color.pipe");
-var list_pokemon_component_1 = require("./list-pokemon.component");
-var detail_pokemon_component_1 = require("./detail-pokemon.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule],
-            // déclarez BoderCarDirective dans le module racine de l'application
-            declarations: [app_component_1.AppComponent, border_card_directive_1.BorderCardDirective, pokemon_type_color_pipe_1.PokemonTypeColorPipe, list_pokemon_component_1.ListPokemonComponent, detail_pokemon_component_1.DetailPokemonComponent, page_not_found_component_1.PageNotFoundComponent],
+            imports: [platform_browser_1.BrowserModule,
+                pokemons_module_1.PokemonsModule,
+                app_routing_module_1.AppRoutingModule],
+            declarations: [app_component_1.AppComponent,
+                page_not_found_component_1.PageNotFoundComponent],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);
